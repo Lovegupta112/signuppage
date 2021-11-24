@@ -1,0 +1,114 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+body{
+    /* position: relative; */
+    /* border:2px solid black; */
+    /* background-color: rgb(11, 12, 8); */
+    background-image: url('QK_1637665459720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* width:100vw; */
+    
+    
+}
+.log{
+    
+    
+    border:2px solid rgb(8, 7, 7);
+    text-align: center;
+    background-color:#eef128ec;
+    width: fit-content;
+    /* width: max-content; */
+    margin: auto;
+    height:400px;
+position: relative;
+top: 75px;
+padding: 1.4rem;
+border-radius: 10px;
+box-shadow: 5px 5px 40px rgb(0, 4, 5),-5px -6px 40px rgb(10, 10, 6);
+/* filter: blur(0.9px); */
+} 
+.log h1{
+    margin-bottom: 35px;
+    font-family: sans-serif;
+    color:crimson;
+    text-shadow: 1px 1px 2px rgb(5, 3, 3),-1px -1px 2px rgb(2, 2, 1);
+};
+
+.forinput{
+    color: rgb(8, 8, 10);
+    border:2px solid rgb(245, 22, 208);
+    /* margin-left: 10px; */
+}
+.log label{
+    color: rgb(247, 6, 26);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bolder;
+    font-size: 20px;
+    /* background-color: rgb(212, 255, 20); */
+    /* text-shadow: 2px 2px 2px rgb(125, 139, 139); */
+}
+#input1{
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 29px;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+#input2{
+    margin-left: 30px;
+    height: 29px;
+    /* color: rgb(7, 11, 255); */
+    border-radius: 8px;
+    text-align: center;
+}
+#input3{
+    margin-left: 49px;
+    height: 29px;
+    border-radius: 8px;
+    text-align: center;
+}
+#input4{
+    margin-left: 25px;
+    height: 29px;
+    border-radius: 8px;
+    text-align: center;
+}
+.signup{
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 3px;
+    margin-top:2px ;
+}
+
+.signup:hover{
+    background-color: rgb(247, 241, 242);
+    color: crimson;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.forspan{
+    color: rgb(5, 3, 5);
+    display: block;
+    /* background-color:rgb(224, 205, 32); */
+    /* border: 3px solid rgb(245, 247, 141); */
+    border-radius: 20px;
+}
+
+.log .img{
+    width: 55px;
+    /* margin-bottom: 0.1rem; */
+    height: 55px;
+    margin-top: -28px;
+    border-radius: 28px;
+}
